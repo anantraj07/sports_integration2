@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Events - Integration Fest 2026</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <canvas id="canvas3d"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Integration Fest</div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#tech" class="nav-link dropdown-toggle">Tech ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/sparq/" class="dropdown-link">SPARQ</a></li>
+                        <li><a href="/mtrp/" class="dropdown-link">MTRP</a></li>
+                        <li><a href="/intbee/" class="dropdown-link">Integration Bee</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="/cultural/" class="nav-link">Cultural</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="/sports/" class="nav-link">Sports</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="/gallery/" class="nav-link">Gallery</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#footer" class="nav-link dropdown-toggle">About ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#venue" class="dropdown-link">Venue</a></li>
+                        <li><a href="#sponsors" class="dropdown-link">Sponsors</a></li>
+                        <li><a href="#contact" class="dropdown-link">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Theme Palette Selector -->
+    <div class="theme-palette-bar">
+        <div class="palette-container">
+            <span class="palette-label">Choose Your Vibe:</span>
+            <div class="palette-options">
+                <button class="palette-btn active" data-theme="" title="Dark Orange" aria-label="Dark Orange Theme">
+                    <span class="palette-color" style="background: linear-gradient(135deg, #ff5722, #ff9800, #ffc107);"></span>
+                </button>
+                <button class="palette-btn" data-theme="vibrant" title="Vibrant Pink" aria-label="Vibrant Pink Theme">
+                    <span class="palette-color" style="background: linear-gradient(135deg, #e91e63, #9c27b0, #3f51b5);"></span>
+                </button>
+                <button class="palette-btn" data-theme="ocean" title="Ocean Blue" aria-label="Ocean Blue Theme">
+                    <span class="palette-color" style="background: linear-gradient(135deg, #00bcd4, #0097a7, #00acc1);"></span>
+                </button>
+                <button class="palette-btn" data-theme="sunset" title="Sunset Orange" aria-label="Sunset Orange Theme">
+                    <span class="palette-color" style="background: linear-gradient(135deg, #ff6b35, #f7931e, #fdc830);"></span>
+                </button>
+                <button class="palette-btn" data-theme="forest" title="Forest Green" aria-label="Forest Green Theme">
+                    <span class="palette-color" style="background: linear-gradient(135deg, #4caf50, #8bc34a, #cddc39);"></span>
+                </button>
+                <button class="palette-btn" data-theme="neon" title="Neon Glow" aria-label="Neon Glow Theme">
+                    <span class="palette-color" style="background: linear-gradient(135deg, #00ff88, #00d9ff, #ff00ff);"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero-small">
+        <div class="decorative-circle circle-1"></div>
+        <div class="decorative-circle circle-2"></div>
+        <h1 class="page-title">Sports Events</h1>
+        <p class="page-subtitle">Where Champions Are Made</p>
+    </section>
+
+    <!-- Cricket -->
+    <section id="cricket" class="page-section">
+        <div class="section-content">
+            <div class="event-header">
+                <div class="event-icon">🏏</div>
+                <h2 class="section-title">Cricket</h2>
+            </div>
+            
+            <div class="poster-container">
+                <a href="#" class="btn poster-btn">View Poster - Coming Soon</a>
+            </div>
+            
+            <div class="sport-image-container">
+                <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=1200&h=600&fit=crop" alt="Cricket Action" class="sport-image">
+            </div>
+            
+            <p class="sport-description">
+                Charge the boundary and feel the roar of the crowd with every perfectly timed shot and soaring six! This is where individual brilliance and team strategy integrate for a glorious victory under the sun.
+            </p>
+            
+            <div class="registration-box">
+                <h3 class="registration-title">Register Your Team</h3>
+                <p class="coming-soon">Coming Soon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Football -->
+    <section id="football" class="page-section alt-bg">
+        <div class="section-content">
+            <div class="event-header">
+                <div class="event-icon">⚽</div>
+                <h2 class="section-title">Football</h2>
+            </div>
+            
+            <div class="poster-container">
+                <a href="#" class="btn poster-btn">View Poster - Coming Soon</a>
+            </div>
+            
+            <div class="sport-image-container">
+                <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1200&h=600&fit=crop" alt="Football Action" class="sport-image">
+            </div>
+            
+            <p class="sport-description">
+                A fast-paced, electrifying battle of skill and stamina, where every dribble and decisive tackle writes a new story on the pitch. Unleash your passion, connect with your team, and fight for that one moment of match-winning magic!
+            </p>
+            
+            <div class="registration-box">
+                <h3 class="registration-title">Register Your Team</h3>
+                <p class="coming-soon">Coming Soon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chess -->
+    <section id="chess" class="page-section">
+        <div class="section-content">
+            <div class="event-header">
+                <div class="event-icon">♟️</div>
+                <h2 class="section-title">Chess</h2>
+            </div>
+            
+            <div class="poster-container">
+                <a href="#" class="btn poster-btn">View Poster - Coming Soon</a>
+            </div>
+            
+            <div class="sport-image-container">
+                <img src="https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=1200&h=600&fit=crop" alt="Chess Action" class="sport-image">
+            </div>
+            
+            <p class="sport-description">
+                Enter the silent, cerebral arena where 64 squares become a battlefield of intricate strategy and profound foresight. Plan your attack, set a brilliant trap, and experience the supreme satisfaction of a perfectly executed checkmate!
+            </p>
+            
+            <div class="registration-box">
+                <h3 class="registration-title">Register for Chess Tournament</h3>
+                <p class="coming-soon">Coming Soon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table Tennis -->
+    <section id="table-tennis" class="page-section alt-bg">
+        <div class="section-content">
+            <div class="event-header">
+                <div class="event-icon">🏓</div>
+                <h2 class="section-title">Table Tennis</h2>
+            </div>
+            
+            <div class="poster-container">
+                <a href="#" class="btn poster-btn">View Poster - Coming Soon</a>
+            </div>
+            
+            <div class="sport-image-container">
+                <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?w=1200&h=600&fit=crop" alt="Table Tennis Action" class="sport-image">
+            </div>
+            
+            <p class="sport-description">
+                Engage in lightning-fast, pulse-pounding duels where lightning reflexes meet devastating spin and precision. Feel the adrenaline of a long, intense rally and the triumph of an unstoppable smash that clinches the point.
+            </p>
+            
+            <div class="registration-box">
+                <h3 class="registration-title">Register Now</h3>
+                <p class="coming-soon">Coming Soon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bridge -->
+    <section id="bridge" class="page-section">
+        <div class="section-content">
+            <div class="event-header">
+                <div class="event-icon">🃏</div>
+                <h2 class="section-title">Bridge</h2>
+            </div>
+            
+            <div class="poster-container">
+                <a href="#" class="btn poster-btn">View Poster - Coming Soon</a>
+            </div>
+            
+            <div class="sport-image-container">
+                <img src="https://images.unsplash.com/photo-1571268373866-a470c4eb2288?w=1200&h=600&fit=crop" alt="Bridge Action" class="sport-image">
+            </div>
+            
+            <p class="sport-description">
+                A sophisticated contest of wits and seamless partnership, where every bid and play is a hidden message. Forge a telepathic connection with your partner to outmaneuver the opposition in this deeply strategic game of calculated risks.
+            </p>
+            
+            <div class="registration-box">
+                <h3 class="registration-title">Register for Bridge Tournament</h3>
+                <p class="coming-soon">Coming Soon</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">Integration Fest 2026</div>
+            <p class="footer-text">Indian Statistical Institute, Kolkata</p>
+            <p class="footer-copyright">© 2026 Indian Statistical Institute. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
